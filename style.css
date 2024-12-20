@@ -120,6 +120,33 @@ nav a:hover {
 }
 
 
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none; /* Remove border for buttons */
+    border-radius: 5px; /* Rounded corners */
+    background: #555; /* Button background color */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background: #666; /* Darker shade on hover */
+}
+
+.btn {
+    display: inline-block; /* Make it behave like a button */
+}
+
+
 .center-btn {
     display: flex;
     justify-content: center;
