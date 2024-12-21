@@ -14,3 +14,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+function openPopup(element) {
+    const img = element.querySelector('img'); // Ambil gambar dari slide yang diklik
+    const imageSrc = img ? img.src : ''; // Dapatkan src dari gambar
+    document.getElementById("popup-image").src = imageSrc; // Set gambar di popup
+    document.getElementById("popup").style.display = "flex"; // Tampilkan popup
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none"; // Sembunyikan popup
+}

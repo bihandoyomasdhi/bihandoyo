@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 3D & Personal Branding</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles_index.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="swiper-bundle.min.css">
 </head>
@@ -12,7 +12,7 @@
     <header>
         
         <div class="header-image">
-            <img src="yoyo.jpg" alt="Bihandoyo MAsdhi">
+            <img src="yoyo.jpg" alt="Bihandoyo Masdhi">
         </div>
 
         <div class="header-content">
@@ -30,123 +30,121 @@
 </nav>
 
 
-    <div class="container">
-        <section id="portfolio">
-            <div class="portfolio">
-                <!-- Portfolio Item 1 -->
-                <div class="portfolio-item">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- Swiper slides (image or video) -->
-                            <div class="swiper-slide">
-                                <img src="image1.1.jpg" alt="Project 1">
-                            </div>
-                            <div class="swiper-slide">
-                            <img src="image1.2.jpg" alt="Project 1 - 2">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <video controls>
-                                    <source src="video1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            
-                            <!-- Tambahkan slide lain jika perlu -->
+<div class="container">
+    <section id="portfolio">
+        <div class="portfolio">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides (image or video) -->
+                        <div class="swiper-slide">
+                            <video controls>
+                                <source src="video1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
-                        <!-- Swiper navigation buttons -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <h3>VFX</h3>
-                    <p>Deskripsi singkat tentang proyek ini.</p>
-                    <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
-                </div>
-
-                <!-- Portfolio Item 2 -->
-                <div class="portfolio-item">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- Swiper slide (image) -->
-                            <div class="swiper-slide">
-                                <img src="image2.jpg" alt="Project 2">
-                            </div>
-                            <!-- Swiper slide (video) -->
-                            <div class="swiper-slide">
-                                <video controls>
-                                    <source src="video2.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+                        <div class="swiper-slide">
+                            <video controls>
+                                <source src="video4.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
-                        <!-- Swiper navigation buttons -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        
+                        <!-- Tambahkan slide lain jika perlu -->
                     </div>
-                    <h3>Turet KillJoy</h3>
-                    <p>Deskripsi singkat tentang proyek ini.</p>
-                    <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+                    <!-- Swiper navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
+                <h3>VFX</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+                <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+            </div>
 
-                <!-- Portfolio Item 3 -->
-                <div class="portfolio-item">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- Swiper slides (image or video) -->
-                            <div class="swiper-slide">
-                                <img src="image3.1.jpg" alt="Project 1">
-                            </div>
-                            <div class="swiper-slide">
-                            <img src="image3.2.jpg" alt="Project 1 - 2">
-                            </div>
-
-                            <div class="swiper-slide">
-                            <img src="image3.3.jpg" alt="Project 1 - 3">
-                            </div>
-                            
-                            <!-- Tambahkan slide lain jika perlu -->
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slide (image) -->
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                            <img src="image2.jpg" alt="Project 2">
                         </div>
-                        <!-- Swiper navigation buttons -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <h3>Furniture</h3>
-                    <p>Deskripsi singkat tentang proyek ini.</p>
-                    <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
-                </div>
-
-                <!-- Portfolio Item 3 -->
-                <div class="portfolio-item">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- Swiper slides (image or video) -->
-                            <div class="swiper-slide">
-                                <img src="image4.1.jpg" alt="Project 1">
-                            </div>
-                            <div class="swiper-slide">
-                                <video controls>
-                                    <source src="video4.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            
-                            <!-- Tambahkan slide lain jika perlu -->
+                        <!-- Swiper slide (video) -->
+                        <div class="swiper-slide">
+                            <video controls>
+                                <source src="video2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
-                        <!-- Swiper navigation buttons -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
-                    <h3>VFX</h3>
-                    <p>Deskripsi singkat tentang proyek ini.</p>
-                    <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+                    <!-- Swiper navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
+                <h3>Turet KillJoy</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+                <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides (image or video) -->
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                            <img src="image3.1.jpg" alt="Project 1">
+                        </div>
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                        <img src="image3.2.jpg" alt="Project 1 - 2">
+                        </div>
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                        <img src="image3.3.jpg" alt="Project 1 - 3">
+                        </div>
+                        
+                        <!-- Tambahkan slide lain jika perlu -->
+                    </div>
+                    <!-- Swiper navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <h3>Furniture</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+                <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+            </div>
+
+            <!-- Portfolio Item 4 -->
+            <div class="portfolio-item">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                            <img src="image6.1.jpg" alt="Project 1">
+                        </div>
+                        <div class="swiper-slide" onclick="openPopup(this)">
+                            <img src="image6.2.jpg" alt="Project 1">
+                        </div>                           
+                        <!-- Tambahkan slide lain jika perlu -->
+                    </div>
+                    <!-- Swiper navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <h3>Brand</h3>
+                <p>Deskripsi singkat tentang proyek ini.</p>
+                <a href="https://bio.link/bihandoyomasdhi" class="btn">Lihat Model 3D</a>
+            </div>
+            <!-- Popup -->
+            <div id="popup" class="popup">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="popup-image" class="popup-content" alt="Popup Image">
+            </div>
 
             </div>
         </section>
     </div>    
 
 <div class="center-btn">
-    <a href="tentangsaya.html" class="btn">Lihat Model 3D Lebih Banyak</a>
+    <a href="konten.html" class="btn">Lihat Model 3D Lebih Banyak</a>
 </div>
 
     <section id="contact">
@@ -182,15 +180,6 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        // Initialize Swiper
-        const swiper = new Swiper('.swiper-container', {
-            loop: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

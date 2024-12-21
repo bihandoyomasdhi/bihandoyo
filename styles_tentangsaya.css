@@ -1,0 +1,143 @@
+/* Reset untuk margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk header */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #222; /* Latar belakang gelap */
+    color: #fff; /* Teks putih */
+}
+
+/* Gambar di sebelah kiri */
+.header-image img {
+    max-width: 150px; /* Ukuran gambar lebih kecil */
+    height: 150px; /* Menetapkan tinggi yang sama dengan lebar untuk membuat gambar berbentuk lingkaran */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover; /* Memastikan gambar tetap terpotong dengan baik dan memenuhi area lingkaran */
+    margin-right: 20px; /* Memberikan ruang antara gambar dan teks */
+}
+
+/* Konten sebelah kanan (judul, nama, perkenalan diri) */
+.header-content {
+    text-align: left; /* Mengatur teks menjadi rata kiri */
+}
+
+/* Konten sebelah kanan (judul, nama, perkenalan diri) */
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+/* Judul dan deskripsi karya */
+header h1:last-of-type {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+header p:last-of-type {
+    font-size: 1.2rem;
+}
+
+
+/* Gambar di sebelah kanan, memperkecil dan berbentuk bulat */
+.header-image img {
+    max-width: 150px; /* Ukuran gambar lebih kecil, sesuaikan sesuai kebutuhan */
+    height: 150px; /* Menetapkan tinggi yang sama dengan lebar untuk membuat gambar berbentuk lingkaran */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover; /* Memastikan gambar tetap terpotong dengan baik dan memenuhi area lingkaran */
+}
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none; /* Menghapus border untuk tombol */
+    border-radius: 5px; /* Sudut yang membulat */
+    background: #555; /* Warna latar belakang tombol */
+    transition: background 0.3s; /* Transisi halus untuk efek hover */
+}
+
+nav a:hover {
+    background: #666; /* Warna lebih gelap saat hover */
+}
+
+.btn {
+    display: inline-block; /* Memperlakukan seperti tombol */
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#about p {
+    text-align: justify; /* Rata kanan */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px; /* Menambahkan jarak di atas footer */
+}
