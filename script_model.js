@@ -67,7 +67,7 @@ AFRAME.registerComponent('drag-rotate-zoom', {
   // Komponen untuk animasi rotasi
   AFRAME.registerComponent('rotation-animation', {
     schema: {
-      speed: { type: 'number', default: 0.02 }
+      speed: { type: 'number', default: 0.010 }
     },
     tick: function () {
       if (this.el.getAttribute('rotation').y < 360) {
