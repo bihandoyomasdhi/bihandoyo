@@ -22,7 +22,7 @@
     }
   
     .scene-container {
-      max-width: 800px;
+      max-width: 100%;
       margin: 20px auto;
       padding: 10px;
       background: white;
@@ -53,13 +53,12 @@
       background-color: #0056b3;
     }
   
-    /* Disable pointer events for the entire scene */
+    /* Adjust pointer events for better touch interaction */
     a-scene {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 10px;
-      height: 400px;
+      max-width: 100%;
       margin: 10px auto;
+      padding: 10px;
+      height: 300px;
       overflow: hidden;
       border-radius: 8px;
     }
@@ -77,7 +76,6 @@
     /* Responsive Design */
     @media (max-width: 768px) {
       .scene-container {
-        max-width: 100%;
         padding: 10px;
       }
   
@@ -88,7 +86,7 @@
       }
   
       a-scene {
-        height: 300px; /* Reduce height for smaller screens */
+        height: 250px; /* Adjust height for smaller screens */
       }
   
       .header {
@@ -108,7 +106,7 @@
       }
   
       a-scene {
-        height: 250px; /* Further reduce height for very small screens */
+        height: 200px; /* Further reduce height for very small screens */
       }
   
       .header {
